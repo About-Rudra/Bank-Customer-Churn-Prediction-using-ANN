@@ -1,1 +1,14 @@
-.venv
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore model weights and datasets
+*.h5
+*.pkl
+*.csv
+*.xlsx
+
+# Ignore system files
+__pycache__/
+*.log
+.DS_Store
