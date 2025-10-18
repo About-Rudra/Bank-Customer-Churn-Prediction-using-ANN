@@ -19,7 +19,7 @@ with open('lablel_encoder_gender.pkl', 'rb') as f:
     lablel_encoder_gender = pickle.load(f)
 
 #streamlit app
-st.title("Customer Churn Prediction")
+st.title("Rudra's Customer Churn Prediction: Accuracy 86%")
 
 st.write("Enter customer details to predict churn probability.")
 # Input fields
